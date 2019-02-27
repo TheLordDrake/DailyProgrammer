@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <title>RGB to Hex Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="justify-content-md-center">
+            <h2>RGB to Hex Converter</h2>
+            <div class="row">
+                    <div class="col-md-6">
+                        <div id="colorBox" class="shadow"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Red
+                            <input id="red" type="number" class="box" value="0" max="255" min="0">
+                        </label>
+                        <label>Green
+                            <input id="green" type="number" class="box" value="0" max="255" min="0" >
+                        </label>
+                        <label>Blue
+                            <input id="blue" type="number" class="box" value="0" max="255" min="0" >
+                        </label>
+                        <label>Hex
+                            <input id="hex" type="text" class="box" value="#000000">
+                        </label>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

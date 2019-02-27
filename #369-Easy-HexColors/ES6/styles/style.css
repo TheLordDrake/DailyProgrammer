@@ -1,0 +1,21 @@
+#colorBox {
+    margin: auto;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 1px solid dimgrey;
+    background-color: black;
+    background-clip: content-box;
+}
+
+.box {
+    width: 70px;
+}
+
+.shadow {
+    box-shadow: 2px 4px 5px grey;
+}
+
+h2 {
+    text-align: center;
+}
